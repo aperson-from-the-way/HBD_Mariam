@@ -5,28 +5,28 @@
 /* ---------- 1. EDITABLE TEXT CONTENT ----------
    One entry per age, 1 through 18. Edit freely — index 0 = age 1. */
 const stageTexts = [
-  "...", // Age 1
-  "...", // Age 2
-  "...", // Age 3
-  "...", // Age 4
-  "...", // Age 5
-  "...", // Age 6
-  "...", // Age 7
-  "...", // Age 8
-  "...", // Age 9
-  "...", // Age 10
-  "...", // Age 11
-  "...", // Age 12
-  "...", // Age 13
-  "...", // Age 14
-  "...", // Age 15
-  "...", // Age 16
-  "...", // Age 17
-  "..."  // Age 18
+  "A first breath meets a first light,I think history should have started here.", // Age 1
+  "Look who can walk now; beware, for his sphere of influence has increased.", // Age 2
+  "The thinker's personality emerges to pose questions like What is this? and Why?", // Age 3
+  "Every day is a new adventure,Imagination begins to build its first kingdoms .", // Age 4
+  "Numbers and letters begin to arrange themselves into meaning,I have become able to write my own name..", // Age 5
+  "The first slap in life is elementary school; you have to rely on yourself every time you fall, get back up again.", // Age 6
+  "Dreams at seven are vast and without limits — astronaut one day, artist the next — because nothing yet feels impossible.", // Age 7
+  "As the circle of people in your life widened, you learned that not everyone is good, even those close to you.", // Age 8
+  "Between games and growing awareness, a keener eye begins to notice the world's larger shape —its not always what bright.", // Age 9
+  "Time is flying,A full decade of living has been gathered like stones in a pocket,Every experience teaches me something.", // Age 10
+  "A quieter kind of thinking begins to take root — less about what is fun, more about what is fair, what is true.", // Age 11
+  "The beginning of hiding behind doors, but this time not from danger in the street, but from a deadly COVID19.", // Age 12
+  "The beginning of a phase of liberation, but liberation from what?! Family or responsibilities? Is this adolescence?", // Age 13
+  "Not all friends are real people; there are friends on social media too. What a huge world!", // Age 14
+  "I learned that life can sometimes take away my home, but it also gives me the opportunity to rebuild it as I want it now.", // Age 15
+  "The beginning of not going with the flow and knowing my own voice; I am the one who decides,i am the one who controls my life.", // Age 16
+  "Every challenge, every difficult moment, was a lesson I learned. I am no longer a child or a little girl; now I know who I am.", // Age 17
+  "The beginning of university life and personal life, and most importantly, bye bye regional."  // Age 18
 ];
 
 /* Future stages beyond 18 — purely decorative, symbolizing what's ahead */
-const futureTexts = ["...", "...", "..."];
+const futureTexts = ["We don't know what the future holds for us.", "But whatever happens, I will face it without fear.", "Because I am the one who writes my life."];
 
 /* ==========================================================
    2. INTRO SCREEN
@@ -330,9 +330,9 @@ let modalOpenedOnce = false;
 
 const lyricLines = [
   { start: 0,    end: 3.5,  text: "Happy Birthday to you..." },
-  { start: 3.5,  end: 7,    text: "Happy Birthday to you..." },
-  { start: 7,    end: 11,   text: "Happy Birthday dear Maryam ❤️" },
-  { start: 11,   end: 15,   text: "Happy Birthday to you!" }
+  { start: 3.5,  end: 5,    text: "Happy Birthday to you..." },
+  { start: 5,    end: 8,   text: "Happy Birthday dear Mariam ❤️" },
+  { start: 8,   end: 15,   text: "Happy Birthday to you!" }
 ];
 
 function openCakeModal(){

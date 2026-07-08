@@ -380,7 +380,7 @@ button{
 
 .candles{
   position:absolute;
-  top:-70px;
+  top:22px;
   display:flex;
   gap:26px;
   z-index:5;
@@ -392,17 +392,17 @@ button{
 
 .candle{
   position:relative;
-  width:16px;
+  width:0px;
   height:60px;
   border-radius:6px;
 }
 
-.candle-1{ background:repeating-linear-gradient(180deg, var(--coral) 0 8px, #fff 8px 16px); }
-.candle-8{ background:repeating-linear-gradient(180deg, var(--lavender-deep) 0 8px, #fff 8px 16px); }
+.candle-1{ background:repeating-linear-gradient(180deg, var(--coral) 0 8px, #3608cc 8px 16px); }
+.candle-8{ background:repeating-linear-gradient(180deg, var(--lavender-deep) 0 8px, #fff 16px 16px); }
 
 .flame{
   position:absolute;
-  top:-22px;
+  top:40px;
   left:50%;
   transform:translateX(-50%);
   width:12px;
@@ -420,19 +420,20 @@ button{
 .digit{ position:absolute; top:64px; left:50%; transform:translateX(-50%); }
 
 .digit-1{
-  width:6px; height:26px;
-  background:var(--ink);
+  width:5px; height:21px;
+  background: var(--gold);
   border-radius:3px;
 }
 
 .digit-8{
-  width:16px; height:26px;
+  width:20px; height:26px;
+  
 }
 .loop{
   display:block;
   width:16px;
   height:12px;
-  border:4px solid var(--ink);
+  border:4px solid var(--gold);
   border-radius:50%;
 }
 .loop-bottom{ margin-top:-3px; }
@@ -467,9 +468,9 @@ button{
 .layer-2{ width:190px; height:56px; background:linear-gradient(180deg,#e6d3ff,var(--lavender)); }
 .layer-1{ width:230px; height:66px; background:linear-gradient(180deg,#cdeeff,var(--sky-3)); }
 
-#cake-modal.open .layer-3{ animation:dropIn 0.7s 0.2s cubic-bezier(.5,0,.7,1.4) forwards; }
+#cake-modal.open .layer-1{ animation:dropIn 0.7s 0.2s cubic-bezier(.5,0,.7,1.4) forwards; }
 #cake-modal.open .layer-2{ animation:dropIn 0.7s 1.0s cubic-bezier(.5,0,.7,1.4) forwards; }
-#cake-modal.open .layer-1{ animation:dropIn 0.7s 1.8s cubic-bezier(.5,0,.7,1.4) forwards; }
+#cake-modal.open .layer-3{ animation:dropIn 0.7s 1.8s cubic-bezier(.5,0,.7,1.4) forwards; }
 
 @keyframes dropIn{
   0%{ opacity:0; transform:translateY(-600px); }
