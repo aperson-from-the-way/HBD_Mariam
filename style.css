@@ -233,7 +233,7 @@ button{
 .stage.in-view .stage-circle{ transform:scale(1); }
 
 .stage-text{
-  max-width:230px;
+  max-width:50%;
   font-family:var(--font-body);
   font-weight:600;
   font-size:1.05rem;
