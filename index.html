@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HBD</title>
+<link rel="icon" type="image/png" href="1000219207.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ INTRO SCREEN ============ -->
+<section id="intro">
+  <div class="intro-inner">
+    <h1 id="intro-question">Are you ready to start the journey?</h1>
+    <div class="intro-buttons">
+      <button id="btn-yes" class="btn-yes">YES</button>
+      <button id="btn-no" class="btn-no">NO</button>
+    </div>
+  </div>
+  <div id="flood"></div>
+</section>
+
+<!-- ============ JOURNEY SCREEN ============ -->
+<main id="journey">
+  <div id="path-wrap">
+    <svg id="path-svg" preserveAspectRatio="none"></svg>
+    <div id="stages"></div>
+  </div>
+  <div class="scroll-hint" id="scroll-hint">
+    <span>↑ scroll up to begin ↑</span>
+  </div>
+</main>
+
+<!-- ============ CAKE MODAL ============ -->
+<div id="cake-modal">
+  <div class="modal-inner">
+    <div id="cake-stage">
+      <div class="candles" id="candles">
+        <div class="candle candle-1">
+          <div class="flame"></div>
+          <div class="digit digit-1"></div>
+        </div>
+        <div class="candle candle-8">
+          <div class="flame"></div>
+          <div class="digit digit-8">
+            <span class="loop loop-top"></span>
+            <span class="loop loop-bottom"></span>
+          </div>
+        </div>
+      </div>
+      <div class="cake" id="cake">
+        <div class="layer layer-3">
+          <div class="frosting"></div>
+          <div class="drips"></div>
+        </div>
+        <div class="layer layer-2">
+          <div class="frosting"></div>
+          <div class="drips"></div>
+        </div>
+        <div class="layer layer-1">
+          <div class="frosting"></div>
+          <div class="drips"></div>
+        </div>
+        <div class="plate"></div>
+      </div>
+    </div>
+
+    <p id="lyrics">Happy Birthday to you...</p>
+
+    <button id="btn-continue">Continue</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
